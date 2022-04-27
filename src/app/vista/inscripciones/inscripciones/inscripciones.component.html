@@ -1,0 +1,41 @@
+<app-index> </app-index>
+
+<div class="container mt-4" style="background-color: #f5f5f5">
+  <h2 style="text-align:center">Formulario de inscripcion</h2>
+  <form action="#"> <!-- No se va a enviar a ningun lado  -->
+    <div class="mb-3">
+      <label for="Name">Nombre completo *</label>
+      <input type="Name" class="form-control" id="Name" placeholder="Enter nombre completo" name="Name">
+    </div>
+    <div class="mb-3 mt-3">
+      <label for="cedula">Número de documento de identidad *</label>
+      <input type="cedula" class="form-control" id="cedula" placeholder="Enter cedula" name="cedula">
+    </div>
+    <div class="mb-3">
+      <label for="email">Correo electrónico *:</label>
+      <input type="email" class="form-control" id="pwd" placeholder="Enter correo electronico" name="email">
+    </div>
+    <div class="mb-3">
+      <label for="email">¿Cuál es tu ocupación? *:</label>
+      <input type="email" class="form-control" id="pwd" placeholder="Enter correo electronico" name="email">
+    </div>
+    <div class="mb-3 mt-3">
+      <label for="comment">¿Qué te motiva a participar en este reto? *:</label>
+      <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+    </div>
+    <div class="form-floating mb-3 mt-3">
+      <select class="form-select" id="sel1" name="sellist">
+        <option>Internet </option>
+        <option>Linkedin </option>
+        <option>Correo electrónico</option>
+        <option>Lanzamiento de la hackathon</option>
+        <option>Otro</option>
+      </select>
+      <label for="sel1" class="form-label">-¿Por qué medio te enteraste de la hackathon? *-</label>
+    </div>
+    <button type="submit" class="btn btn-primary centrado">Enviar</button>
+  </form>
+  <br>
+</div>
+
+<br>
